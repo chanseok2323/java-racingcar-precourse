@@ -15,6 +15,10 @@ public class RacingGame {
         cars = new ArrayList<>();
     }
 
+    public List<Car> getCars() {
+        return cars;
+    }
+
     public void ready(List<String> carList, int attempt) {
         this.attemptCnt = attempt;
         for(int i=0; i<carList.size(); i++) {
